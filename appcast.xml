@@ -6,6 +6,28 @@
         <description>Production appcast feed for Tymor.</description>
         <language>en</language>
         <item>
+            <title>1.0.1</title>
+            <pubDate>Mon, 09 Nov 2026 16:54:05 +0600</pubDate>
+            <link>https://gleemyhq.github.io/tymor-releases</link>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Tymor 1.0.1
+
+## ✨ What's new
+
+- Start with ambience intensity set to 70% by default.
+- Adjust snow bed height from Thin to Thick, with room for deeper snow on the ground, windows, icons, and widgets.
+- Choose Small, Default, or Large fireflies.
+
+## 🐞 Bug fixes
+
+- Include running apps in the Dock width estimate so snow reaches both ends of the tray.
+
+]]></description>
+            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.0.1/Tymor-1.0.1.dmg" length="6417226" type="application/octet-stream" sparkle:edSignature="/pCa9wjWXkKp7X4miBfwWqJY/egX4dJ0HEjFTQy9j01bbSpdqHF/gwG2JzvsOiiX3E/H53Y612UCjGWl7LZtDw=="/>
+        </item>
+        <item>
             <title>1.0</title>
             <pubDate>Mon, 09 Nov 2026 10:44:16 +0600</pubDate>
             <link>https://gleemyhq.github.io/tymor-releases</link>
