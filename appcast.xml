@@ -1,13 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss
-    version="2.0"
-    xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
-    xmlns:dc="http://purl.org/dc/elements/1.1/"
->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
     <channel>
         <title>Tymor updates</title>
         <link>https://gleemyhq.github.io/tymor-releases</link>
         <description>Production appcast feed for Tymor.</description>
         <language>en</language>
+        <item>
+            <title>1.0</title>
+            <pubDate>Mon, 09 Nov 2026 10:44:16 +0600</pubDate>
+            <link>https://gleemyhq.github.io/tymor-releases</link>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Tymor 1.0
+
+First release.
+
+## ✨ What's new
+
+- Bring your desktop to life with winter snow, rain, or glowing fireflies.
+- Snow gathers on windows, the Dock, desktop icons, widgets, and the bottom of your screen. Build snowmen or clear the ground with a snowplow.
+- Make a rainy day your own with optional thunder, lightning, and sound.
+- Move your pointer near fireflies to scatter them, or hold Option to draw them closer.
+- Choose wallpapers for each ambience, with full-size images downloaded when needed.
+- Adjust the frame rate and pause effects on battery or in Low Power Mode. Open Tymor automatically at login.
+- Enjoy a three-day free trial; one license covers up to three Macs.
+- Receive updates through Tymor’s built-in updater.
+]]></description>
+            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.0/Tymor-1.0.dmg" length="6412100" type="application/octet-stream" sparkle:edSignature="vbCKrukAyP/TKNii6a2fhmf9HuG5zNpmVOR2mkFkXnzKTRr9u59OLbfGjj+pFxI1MyemBxyoGATpj59/z1oqAw=="/>
+        </item>
     </channel>
 </rss>
