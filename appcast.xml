@@ -6,6 +6,21 @@
         <description>Production appcast feed for Tymor.</description>
         <language>en</language>
         <item>
+            <title>1.0.3</title>
+            <pubDate>Wed, 11 Nov 2026 04:14:00 +0600</pubDate>
+            <link>https://gleemyhq.github.io/tymor-releases</link>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Tymor 1.0.3
+
+## 🐞 Bug fixes
+
+- Fixed dark boxes appearing around larger fireflies in the Fireflies ambience.
+]]></description>
+            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.0.3/Tymor-1.0.3.dmg" length="6441130" type="application/octet-stream" sparkle:edSignature="T7/HHzo2JxFzjJ+UMjGYtMcV8GgXt3IskSsdzLuap8OeAoXmBG3vHzrYrOyHoyIPlPunzMiIPf2eUyOjCvdsCw=="/>
+        </item>
+        <item>
             <title>1.0.2</title>
             <pubDate>Wed, 11 Nov 2026 03:31:04 +0600</pubDate>
             <link>https://gleemyhq.github.io/tymor-releases</link>
@@ -50,30 +65,6 @@
 
 ]]></description>
             <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.0.1/Tymor-1.0.1.dmg" length="6417226" type="application/octet-stream" sparkle:edSignature="/pCa9wjWXkKp7X4miBfwWqJY/egX4dJ0HEjFTQy9j01bbSpdqHF/gwG2JzvsOiiX3E/H53Y612UCjGWl7LZtDw=="/>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Mon, 09 Nov 2026 10:44:16 +0600</pubDate>
-            <link>https://gleemyhq.github.io/tymor-releases</link>
-            <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Tymor 1.0
-
-First release.
-
-## ✨ What's new
-
-- Bring your desktop to life with winter snow, rain, or glowing fireflies.
-- Snow gathers on windows, the Dock, desktop icons, widgets, and the bottom of your screen. Build snowmen or clear the ground with a snowplow.
-- Make a rainy day your own with optional thunder, lightning, and sound.
-- Move your pointer near fireflies to scatter them, or hold Option to draw them closer.
-- Choose wallpapers for each ambience, with full-size images downloaded when needed.
-- Adjust the frame rate and pause effects on battery or in Low Power Mode. Open Tymor automatically at login.
-- Enjoy a three-day free trial; one license covers up to three Macs.
-- Receive updates through Tymor’s built-in updater.
-]]></description>
-            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.0/Tymor-1.0.dmg" length="6412100" type="application/octet-stream" sparkle:edSignature="vbCKrukAyP/TKNii6a2fhmf9HuG5zNpmVOR2mkFkXnzKTRr9u59OLbfGjj+pFxI1MyemBxyoGATpj59/z1oqAw=="/>
         </item>
     </channel>
 </rss>
