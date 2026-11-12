@@ -6,6 +6,23 @@
         <description>Production appcast feed for Tymor.</description>
         <language>en</language>
         <item>
+            <title>1.0.4</title>
+            <pubDate>Thu, 12 Nov 2026 10:19:00 +0600</pubDate>
+            <link>https://gleemyhq.github.io/tymor-releases</link>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Tymor 1.0.4
+
+## 🐞 Bug fixes
+
+- Improved recovery from license verification failures, with a retry option when a saved license is blocked.
+- Fixed offline license access failing to expire while Tymor stays open.
+- Prevented overlapping activation, verification, and deactivation requests from leaving the license in an incorrect state.
+]]></description>
+            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.0.4/Tymor-1.0.4.dmg" length="6525149" type="application/octet-stream" sparkle:edSignature="QgCCbKzkemJrCNOn+YRxOlPtyZwTdETu3eX0y9+z3xZ9cX0nXJrx/Pvi89Vq77cBJ1NkpjuDn76F2Ev3GzEdCQ=="/>
+        </item>
+        <item>
             <title>1.0.3</title>
             <pubDate>Wed, 11 Nov 2026 04:14:00 +0600</pubDate>
             <link>https://gleemyhq.github.io/tymor-releases</link>
@@ -43,28 +60,6 @@
 - Powder swept off a moved window no longer tunnels through or lands back on its own top, and snow beds on sideways-slid windows now cover the newly exposed stretch so it starts bare and catches snow properly.
 ]]></description>
             <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.0.2/Tymor-1.0.2.dmg" length="6439487" type="application/octet-stream" sparkle:edSignature="KrhbdeWQpWmMzcesiAx4nNr15FuSdWn2XJqkGS/Tvd1wAzoQrNsOuySRBzCju3TBwkp3WPE5szNPSpVIXWysDw=="/>
-        </item>
-        <item>
-            <title>1.0.1</title>
-            <pubDate>Mon, 09 Nov 2026 16:54:05 +0600</pubDate>
-            <link>https://gleemyhq.github.io/tymor-releases</link>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Tymor 1.0.1
-
-## ✨ What's new
-
-- Start with ambience intensity set to 70% by default.
-- Adjust snow bed height from Thin to Thick, with room for deeper snow on the ground, windows, icons, and widgets.
-- Choose Small, Default, or Large fireflies.
-
-## 🐞 Bug fixes
-
-- Include running apps in the Dock width estimate so snow reaches both ends of the tray.
-
-]]></description>
-            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.0.1/Tymor-1.0.1.dmg" length="6417226" type="application/octet-stream" sparkle:edSignature="/pCa9wjWXkKp7X4miBfwWqJY/egX4dJ0HEjFTQy9j01bbSpdqHF/gwG2JzvsOiiX3E/H53Y612UCjGWl7LZtDw=="/>
         </item>
     </channel>
 </rss>
