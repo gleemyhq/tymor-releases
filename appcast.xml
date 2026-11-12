@@ -6,6 +6,24 @@
         <description>Production appcast feed for Tymor.</description>
         <language>en</language>
         <item>
+            <title>1.0.5</title>
+            <pubDate>Thu, 12 Nov 2026 19:31:03 +0600</pubDate>
+            <link>https://gleemyhq.github.io/tymor-releases</link>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Tymor 1.0.5
+
+## ✨ What's new
+
+- **Celebration lights:** Hang lights along your screen edges and across window tops from a new **Lights** settings page. Screen and window lights have separate switches and customization, and work with any ambience—even when weather is turned off.
+- **Make each strand your own:** Choose glass bulbs, stars, hearts, pumpkins, ghosts, bats, snowflakes, trees or sparks, or mix shapes along a strand. Pick from eight color collections or create your own, then adjust bulb size, spacing, brightness and glow.
+- **Light motion and wire controls:** Choose Still, Swell, Shimmer, Candle, Merry Chase or Comet, with adjustable speed and depth. Shape strands by dragging hooks and adjusting droop, with live previews over your wallpaper. Lights respect Reduce Motion and your power-saving settings.
+- **Simpler Winter settings:** Snow accumulation, snowplow and sound controls now live in a **Snow** tab, with snowman instructions, scarves and caps in a separate **Snowman** tab.
+]]></description>
+            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.0.5/Tymor-1.0.5.dmg" length="6893827" type="application/octet-stream" sparkle:edSignature="EZXeblAbBT3DGOfJpZ1h3t1wAOTTK/c+NlvYsis8ADzDB2qZ1woqihcFE/71v22T8QB3q0SO/qjaoY+wk6rcCA=="/>
+        </item>
+        <item>
             <title>1.0.4</title>
             <pubDate>Thu, 12 Nov 2026 10:19:00 +0600</pubDate>
             <link>https://gleemyhq.github.io/tymor-releases</link>
@@ -36,30 +54,6 @@
 - Fixed dark boxes appearing around larger fireflies in the Fireflies ambience.
 ]]></description>
             <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.0.3/Tymor-1.0.3.dmg" length="6441130" type="application/octet-stream" sparkle:edSignature="T7/HHzo2JxFzjJ+UMjGYtMcV8GgXt3IskSsdzLuap8OeAoXmBG3vHzrYrOyHoyIPlPunzMiIPf2eUyOjCvdsCw=="/>
-        </item>
-        <item>
-            <title>1.0.2</title>
-            <pubDate>Wed, 11 Nov 2026 03:31:04 +0600</pubDate>
-            <link>https://gleemyhq.github.io/tymor-releases</link>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Tymor 1.0.2
-
-## ✨ What's new
-
-- Dress finished snowmen with a cap: choose Off, Top Hat, Santa, or Mix (the default — a random cap per snowman) in Winter settings, with the settings preview showing the chosen cap.
-- Snowmen feel more alive: their coal eyes blink now and then, the scarf knots at the front and its hanging end sways gently into a short fringe, soft shadows settle where the snowballs rest on each other, and branch arms gained an extra twig.
-- The snow plow is redrawn as a tracked groomer with a detailed cab and blade, and it now throws a spray of powder and clumps off the blade as it pushes snow.
-- Rain falls more naturally: drops accelerate to their own speed, streaks stretch as they gather pace, and the shared wind eases, gusts, and drifts the rain into moving bands.
-- Rain now splashes where drops actually land — on window ledges, the Dock, and the ground — and window-edge streams gather into beads that swell, let go, and run down the side.
-
-## 🐞 Bug fixes
-
-- Snow on a window's top now breaks up and falls promptly and in one piece when the window is closed or minimized, instead of lingering or clinging to the shrinking window.
-- Powder swept off a moved window no longer tunnels through or lands back on its own top, and snow beds on sideways-slid windows now cover the newly exposed stretch so it starts bare and catches snow properly.
-]]></description>
-            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.0.2/Tymor-1.0.2.dmg" length="6439487" type="application/octet-stream" sparkle:edSignature="KrhbdeWQpWmMzcesiAx4nNr15FuSdWn2XJqkGS/Tvd1wAzoQrNsOuySRBzCju3TBwkp3WPE5szNPSpVIXWysDw=="/>
         </item>
     </channel>
 </rss>
