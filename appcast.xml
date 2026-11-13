@@ -6,6 +6,38 @@
         <description>Production appcast feed for Tymor.</description>
         <language>en</language>
         <item>
+            <title>1.0.7</title>
+            <pubDate>Fri, 13 Nov 2026 17:21:17 +0600</pubDate>
+            <link>https://gleemyhq.github.io/tymor-releases</link>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Tymor 1.0.7
+
+## What's new
+
+- Hold Option and sweep through snow to roll snowballs on windows and the Dock, as well as along the bottom of your screen.
+- Preview Christmas screen lights with Snow during setup, with a simple switch to turn them on or off.
+
+## Improvements
+
+- Lower memory use for lights and weather effects, including when ambience is paused or turned off.
+- Gentler cursor brushing removes less snow and stays consistent across frame rates.
+- Falling snow keeps its fullness when windows close or minimize.
+- Snowballs and snowmen leave fuller piles of snow where they break apart.
+- Redesigned setup with an immersive ambience preview, a wallpaper gallery, and a more cohesive Menu Bar screen.
+
+## Fixes
+
+- Fixed flickering or stretched screen lights when quickly toggling edges.
+- Fixed a crash that could occur while lights or weather effects were active.
+- Snow now breaks away at the right moment when minimizing a window, without following it into the Dock or falling early.
+- Fixed detached snow beds during trackpad swipes between Spaces, including slow and canceled swipes.
+- Fixed gaps in partially covered snow beds and improved how snow meets rounded window corners.
+]]></description>
+            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.0.7/Tymor-1.0.7.dmg" length="7058259" type="application/octet-stream" sparkle:edSignature="XezifGq788kRwpaLaHgPKArGCi2dmX35cm9ZPE1nNdtLQ87gltvUvsfxtOJPNNoooI1Cb2ul6739VQ5nAPkJAQ=="/>
+        </item>
+        <item>
             <title>1.0.6</title>
             <pubDate>Thu, 12 Nov 2026 22:14:04 +0600</pubDate>
             <link>https://gleemyhq.github.io/tymor-releases</link>
@@ -44,23 +76,6 @@
 - **Simpler Winter settings:** Snow accumulation, snowplow and sound controls now live in a **Snow** tab, with snowman instructions, scarves and caps in a separate **Snowman** tab.
 ]]></description>
             <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.0.5/Tymor-1.0.5.dmg" length="6893827" type="application/octet-stream" sparkle:edSignature="EZXeblAbBT3DGOfJpZ1h3t1wAOTTK/c+NlvYsis8ADzDB2qZ1woqihcFE/71v22T8QB3q0SO/qjaoY+wk6rcCA=="/>
-        </item>
-        <item>
-            <title>1.0.4</title>
-            <pubDate>Thu, 12 Nov 2026 10:19:00 +0600</pubDate>
-            <link>https://gleemyhq.github.io/tymor-releases</link>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Tymor 1.0.4
-
-## 🐞 Bug fixes
-
-- Improved recovery from license verification failures, with a retry option when a saved license is blocked.
-- Fixed offline license access failing to expire while Tymor stays open.
-- Prevented overlapping activation, verification, and deactivation requests from leaving the license in an incorrect state.
-]]></description>
-            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.0.4/Tymor-1.0.4.dmg" length="6525149" type="application/octet-stream" sparkle:edSignature="QgCCbKzkemJrCNOn+YRxOlPtyZwTdETu3eX0y9+z3xZ9cX0nXJrx/Pvi89Vq77cBJ1NkpjuDn76F2Ev3GzEdCQ=="/>
         </item>
     </channel>
 </rss>
