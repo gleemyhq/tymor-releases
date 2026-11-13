@@ -6,6 +6,21 @@
         <description>Production appcast feed for Tymor.</description>
         <language>en</language>
         <item>
+            <title>1.0.8</title>
+            <pubDate>Fri, 13 Nov 2026 18:38:19 +0600</pubDate>
+            <link>https://gleemyhq.github.io/tymor-releases</link>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Tymor 1.0.8
+
+## 🐞 Bug fixes
+
+- Fixed snowballs and snowmen appearing partly behind windows. All parts now stay visible above windows, including while dragging.
+]]></description>
+            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.0.8/Tymor-1.0.8.dmg" length="7056905" type="application/octet-stream" sparkle:edSignature="xXQnkd0WJj5g/VX3QXMYqz/6CBwEnRpVWoLHG7S3EnfpNNaDnSH8HqUOEtzddRJ9uM/Ywjv9y/8B2WZUpImWBA=="/>
+        </item>
+        <item>
             <title>1.0.7</title>
             <pubDate>Fri, 13 Nov 2026 17:21:17 +0600</pubDate>
             <link>https://gleemyhq.github.io/tymor-releases</link>
@@ -58,24 +73,6 @@
 - The menu bar now explains when power saving pauses lights, including when weather effects are turned off.
 ]]></description>
             <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.0.6/Tymor-1.0.6.dmg" length="6937888" type="application/octet-stream" sparkle:edSignature="u1xFxARH3KeCzHfVfBh5AxPScAnvB/M+7xDR3Z4FApQUZzAxOw3zmRJT8Fj6xlIe8athk5qX5LjeI9cA4SS/Dg=="/>
-        </item>
-        <item>
-            <title>1.0.5</title>
-            <pubDate>Thu, 12 Nov 2026 19:31:03 +0600</pubDate>
-            <link>https://gleemyhq.github.io/tymor-releases</link>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Tymor 1.0.5
-
-## ✨ What's new
-
-- **Celebration lights:** Hang lights along your screen edges and across window tops from a new **Lights** settings page. Screen and window lights have separate switches and customization, and work with any ambience—even when weather is turned off.
-- **Make each strand your own:** Choose glass bulbs, stars, hearts, pumpkins, ghosts, bats, snowflakes, trees or sparks, or mix shapes along a strand. Pick from eight color collections or create your own, then adjust bulb size, spacing, brightness and glow.
-- **Light motion and wire controls:** Choose Still, Swell, Shimmer, Candle, Merry Chase or Comet, with adjustable speed and depth. Shape strands by dragging hooks and adjusting droop, with live previews over your wallpaper. Lights respect Reduce Motion and your power-saving settings.
-- **Simpler Winter settings:** Snow accumulation, snowplow and sound controls now live in a **Snow** tab, with snowman instructions, scarves and caps in a separate **Snowman** tab.
-]]></description>
-            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.0.5/Tymor-1.0.5.dmg" length="6893827" type="application/octet-stream" sparkle:edSignature="EZXeblAbBT3DGOfJpZ1h3t1wAOTTK/c+NlvYsis8ADzDB2qZ1woqihcFE/71v22T8QB3q0SO/qjaoY+wk6rcCA=="/>
         </item>
     </channel>
 </rss>
