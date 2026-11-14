@@ -6,6 +6,23 @@
         <description>Production appcast feed for Tymor.</description>
         <language>en</language>
         <item>
+            <title>1.1.1</title>
+            <pubDate>Sat, 14 Nov 2026 18:09:13 +0600</pubDate>
+            <link>https://gleemyhq.github.io/tymor-releases</link>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Tymor 1.1.1
+
+## 🐞 Bug fixes
+
+- Fixed snow beds jumping across the screen when opening Mission Control. Accumulated snow returns to its original place when you exit.
+- Sped up the Yeti's windup and release poses.
+- Fixed the onboarding preview so the Yeti throws at the screen and leaves the snowman intact, and Santa delivers presents from the sky.
+]]></description>
+            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.1.1/Tymor-1.1.1.dmg" length="12819262" type="application/octet-stream" sparkle:edSignature="5NNOs//srjVccdOTy+3lfZ3ZJNNnrxHbejHkQn57GDD2AbWRlJ2xso/oV/tzUQML3Xz4tD5hZNRWk73cjiJrCw=="/>
+        </item>
+        <item>
             <title>1.1.0</title>
             <pubDate>Sat, 14 Nov 2026 15:38:58 +0600</pubDate>
             <link>https://gleemyhq.github.io/tymor-releases</link>
@@ -46,38 +63,6 @@
 - Fixed snowballs and snowmen appearing partly behind windows. All parts now stay visible above windows, including while dragging.
 ]]></description>
             <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.0.8/Tymor-1.0.8.dmg" length="7056905" type="application/octet-stream" sparkle:edSignature="xXQnkd0WJj5g/VX3QXMYqz/6CBwEnRpVWoLHG7S3EnfpNNaDnSH8HqUOEtzddRJ9uM/Ywjv9y/8B2WZUpImWBA=="/>
-        </item>
-        <item>
-            <title>1.0.7</title>
-            <pubDate>Fri, 13 Nov 2026 17:21:17 +0600</pubDate>
-            <link>https://gleemyhq.github.io/tymor-releases</link>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Tymor 1.0.7
-
-## ✨ What's new
-
-- Hold Option and sweep through snow to roll snowballs on windows and the Dock, as well as along the bottom of your screen.
-- Preview Christmas screen lights with Snow during setup, with a simple switch to turn them on or off.
-
-## ⚡ Improvements
-
-- Lower memory use for lights and weather effects, including when ambience is paused or turned off.
-- Gentler cursor brushing removes less snow and stays consistent across frame rates.
-- Falling snow keeps its fullness when windows close or minimize.
-- Snowballs and snowmen leave fuller piles of snow where they break apart.
-- Redesigned setup with an immersive ambience preview, a wallpaper gallery, and a more cohesive Menu Bar screen.
-
-## 🐞 Bug fixes
-
-- Fixed flickering or stretched screen lights when quickly toggling edges.
-- Fixed a crash that could occur while lights or weather effects were active.
-- Snow now breaks away at the right moment when minimizing a window, without following it into the Dock or falling early.
-- Fixed detached snow beds during trackpad swipes between Spaces, including slow and canceled swipes.
-- Fixed gaps in partially covered snow beds and improved how snow meets rounded window corners.
-]]></description>
-            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.0.7/Tymor-1.0.7.dmg" length="7058259" type="application/octet-stream" sparkle:edSignature="XezifGq788kRwpaLaHgPKArGCi2dmX35cm9ZPE1nNdtLQ87gltvUvsfxtOJPNNoooI1Cb2ul6739VQ5nAPkJAQ=="/>
         </item>
     </channel>
 </rss>
