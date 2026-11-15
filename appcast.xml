@@ -6,6 +6,33 @@
         <description>Production appcast feed for Tymor.</description>
         <language>en</language>
         <item>
+            <title>1.1.2</title>
+            <pubDate>Sun, 15 Nov 2026 09:09:57 +0600</pubDate>
+            <link>https://gleemyhq.github.io/tymor-releases</link>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Tymor 1.1.2
+
+## ✨ What's new
+
+- Aim falling snow and rain with the **Wind** dial in General settings. Drag the needle or use the arrow keys to adjust the angle. Choose **Use automatic** to bring back the natural drift.
+- Weather pauses on each display covered by a fullscreen app to save CPU and memory. When you return to the desktop, falling particles resume where they left off and accumulated snow stays in place.
+
+## ⚡ Improvements
+
+- Snow, rain, and fireflies use less CPU. Santa and Yeti visits also take less work to render.
+- Moving windows and switching seasons are smoother, including when a window sheds snow or you drag it through falling rain.
+
+## 🐞 Bug fixes
+
+- Fixed a flash that could appear over nearby windows when you moved or resized a window in the rain.
+- Fixed rain streams that lingered after a window moved or closed. Streams now taper smoothly at window edges.
+- Fixed flickering in the snow that falls when you close a window.
+]]></description>
+            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.1.2/Tymor-1.1.2.dmg" length="12913853" type="application/octet-stream" sparkle:edSignature="KSnw0pH5IMh+otiyVW/lu/0zIeqkLSNE2339NqQQAMdkOR0YMwlBNxpMz1JFSoJpd5UhmJkhuTbqLVw20zlqBg=="/>
+        </item>
+        <item>
             <title>1.1.1</title>
             <pubDate>Sat, 14 Nov 2026 18:09:13 +0600</pubDate>
             <link>https://gleemyhq.github.io/tymor-releases</link>
@@ -48,21 +75,6 @@
 - Reduced flicker while dragging snowballs and snowmen or resizing snow-covered windows. Deep drifts shed snow in fewer particles during a resize.
 ]]></description>
             <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.1.0/Tymor-1.1.0.dmg" length="12818962" type="application/octet-stream" sparkle:edSignature="MndOjbSzd8mGY6XtvXC+uiA4aEMlCiduhxK7uurs8iammJK9lvlb7qzFD4qeNp0wrlBQ85HS6VQz3ikt+W7jBg=="/>
-        </item>
-        <item>
-            <title>1.0.8</title>
-            <pubDate>Fri, 13 Nov 2026 18:38:19 +0600</pubDate>
-            <link>https://gleemyhq.github.io/tymor-releases</link>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Tymor 1.0.8
-
-## 🐞 Bug fixes
-
-- Fixed snowballs and snowmen appearing partly behind windows. All parts now stay visible above windows, including while dragging.
-]]></description>
-            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.0.8/Tymor-1.0.8.dmg" length="7056905" type="application/octet-stream" sparkle:edSignature="xXQnkd0WJj5g/VX3QXMYqz/6CBwEnRpVWoLHG7S3EnfpNNaDnSH8HqUOEtzddRJ9uM/Ywjv9y/8B2WZUpImWBA=="/>
         </item>
     </channel>
 </rss>
