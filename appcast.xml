@@ -6,6 +6,24 @@
         <description>Production appcast feed for Tymor.</description>
         <language>en</language>
         <item>
+            <title>1.1.5</title>
+            <pubDate>Tue, 17 Nov 2026 17:15:32 +0600</pubDate>
+            <link>https://gleemyhq.github.io/tymor-releases</link>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Tymor 1.1.5
+
+## ✨ What's new
+
+- Decorate your desktop with Christmas trees. Add them from the menu bar or Winter settings, then drag them anywhere you like.
+- Yeti can chop down trees rooted in the bottom snow bed or snowy Dock top. Control tree cutting in Yeti settings; visits still follow your automatic or manual preferences.
+- Yeti now works through all reachable trees and eligible snowmen before celebrating, with varied surprise, jump, and smile endings.
+- The snowplow knocks down bottom-area trees and carries them offscreen alongside presents.
+]]></description>
+            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.1.5/Tymor-1.1.5.dmg" length="16469194" type="application/octet-stream" sparkle:edSignature="nJ5AsaUvhj/GXMFEYNNKfcuzZNdanre0DwFzo43vwA09OhoIYo4dLUQng8ReYciLNhyYjBKduIVA6Ap7rE9aDQ=="/>
+        </item>
+        <item>
             <title>1.1.4</title>
             <pubDate>Mon, 16 Nov 2026 19:42:28 +0600</pubDate>
             <link>https://gleemyhq.github.io/tymor-releases</link>
@@ -46,33 +64,6 @@
 - Snow on nearby windows stays visible and steady while you drag a window.
 ]]></description>
             <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.1.3/Tymor-1.1.3.dmg" length="12949582" type="application/octet-stream" sparkle:edSignature="dO33VbJ2rtTl71PHhbEpttS2DrSkzhQTnJQR4cab4Fn/+fjRbFPDnYkDbYIOEznLtH6/MGLnza4/NNczajIWDw=="/>
-        </item>
-        <item>
-            <title>1.1.2</title>
-            <pubDate>Sun, 15 Nov 2026 09:09:57 +0600</pubDate>
-            <link>https://gleemyhq.github.io/tymor-releases</link>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Tymor 1.1.2
-
-## ✨ What's new
-
-- Aim falling snow and rain with the **Wind** dial in General settings. Drag the needle or use the arrow keys to adjust the angle. Choose **Use automatic** to bring back the natural drift.
-- Weather pauses on each display covered by a fullscreen app to save CPU and memory. When you return to the desktop, falling particles resume where they left off and accumulated snow stays in place.
-
-## ⚡ Improvements
-
-- Snow, rain, and fireflies use less CPU. Santa and Yeti visits also take less work to render.
-- Moving windows and switching seasons are smoother, including when a window sheds snow or you drag it through falling rain.
-
-## 🐞 Bug fixes
-
-- Fixed a flash that could appear over nearby windows when you moved or resized a window in the rain.
-- Fixed rain streams that lingered after a window moved or closed. Streams now taper smoothly at window edges.
-- Fixed flickering in the snow that falls when you close a window.
-]]></description>
-            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.1.2/Tymor-1.1.2.dmg" length="12913853" type="application/octet-stream" sparkle:edSignature="KSnw0pH5IMh+otiyVW/lu/0zIeqkLSNE2339NqQQAMdkOR0YMwlBNxpMz1JFSoJpd5UhmJkhuTbqLVw20zlqBg=="/>
         </item>
     </channel>
 </rss>
