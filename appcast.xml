@@ -6,6 +6,35 @@
         <description>Production appcast feed for Tymor.</description>
         <language>en</language>
         <item>
+            <title>1.1.7</title>
+            <pubDate>Sat, 21 Nov 2026 01:32:15 +0600</pubDate>
+            <link>https://gleemyhq.github.io/tymor-releases</link>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>1.1.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Tymor 1.1.7
+
+## ✨ What's new
+
+- Hold Option and roll a snowball into another to push it along. Keep rolling to push a whole row.
+
+## ⚡ Improvements
+
+- Santa’s reindeer now gallop slightly out of step with each other, and their hooves settle into the snow on the Dock and along the bottom of the screen.
+- Snow rides along on gentle upward window drags and hops higher with a brisk flick. Lowering a window releases a wider cloud of powder.
+- The Dock and screen-bottom beds now collect 40% of the snow that lands from sweeping, moving, resizing, closing, or minimizing a window, or from a broken snowball. Snowball impacts build a mound and spread excess snow around its base.
+- The snowplow crosses the screen a little faster.
+
+## 🐞 Bug fixes
+
+- Reduced flicker during Santa’s flight, when dragging snowballs, snowmen, or trees, and when snowballs roll or fall quickly.
+- After a short downward drag, the window can catch powder that previously slipped through its top edge.
+- The Yeti now aims glass throws from its throwing spot, so the snowball travels in the direction of the throw. Short throws follow a shallower arc.
+- Closed small visible gaps between rolling snowballs and where a snowman rests on its snow bed.
+]]></description>
+            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.1.7/Tymor-1.1.7.dmg" length="17955831" type="application/octet-stream" sparkle:edSignature="b4JczdoHfCEnr8r2a+0NnaqDrgracf++UcAvq8Yx1FoqWI1H8ccUeheKu5tQxk1o2ElsH4mrDBJn464Bjw5CCg=="/>
+        </item>
+        <item>
             <title>1.1.6</title>
             <pubDate>Wed, 18 Nov 2026 21:29:28 +0600</pubDate>
             <link>https://gleemyhq.github.io/tymor-releases</link>
@@ -42,26 +71,6 @@
 - The snowplow knocks down bottom-area trees and carries them offscreen alongside presents.
 ]]></description>
             <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.1.5/Tymor-1.1.5.dmg" length="16469194" type="application/octet-stream" sparkle:edSignature="nJ5AsaUvhj/GXMFEYNNKfcuzZNdanre0DwFzo43vwA09OhoIYo4dLUQng8ReYciLNhyYjBKduIVA6Ap7rE9aDQ=="/>
-        </item>
-        <item>
-            <title>1.1.4</title>
-            <pubDate>Mon, 16 Nov 2026 19:42:28 +0600</pubDate>
-            <link>https://gleemyhq.github.io/tymor-releases</link>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Tymor 1.1.4
-
-## ✨ What's new
-
-- Sweeping snow on windows, the Dock, icons, and widgets now pushes it along the surface and sends it falling. Choose **Snow dust** in **Winter → Snow → Cursor sweep** to use the original effect. Snow at the bottom of the screen still gives off dust.
-- Snow beds grow into soft, irregular ripples that stay visible as the snow builds up.
-
-## 🐞 Bug fixes
-
-- Minor bug fixes, including smoother snow removal when rolling snowballs.
-]]></description>
-            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.1.4/Tymor-1.1.4.dmg" length="12955106" type="application/octet-stream" sparkle:edSignature="VxQZsRGmsxZ4zk9UBysxw5a4n7jx90F7EthbDftZTJ5IfzaW3+/FoXXVEdRGoR36+l/pvmOL6bGx1ZHh6GIjAQ=="/>
         </item>
     </channel>
 </rss>
