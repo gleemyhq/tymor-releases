@@ -6,6 +6,34 @@
         <description>Production appcast feed for Tymor.</description>
         <language>en</language>
         <item>
+            <title>1.1.8</title>
+            <pubDate>Sun, 22 Nov 2026 15:15:07 +0600</pubDate>
+            <link>https://gleemyhq.github.io/tymor-releases</link>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>1.1.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Tymor 1.1.8
+
+## ✨ What's new
+
+- Dress your snowman in a matching crown and ribbon. Choose from five top hat palettes, starting with Midnight & Slate, or use the color wheel to pick both colors yourself.
+- Choose a solid Cardinal scarf or one of four striped designs, including Peppermint and Cocoa & Clementine. You can also pick your own main yarn and stripe colors.
+- Mix hat and scarf colors independently. Click either shuffle button again to try another pairing in the preview. Each snowman on the Dock keeps its own mix.
+- Choose your snowplow in Winter settings. The new Vintage Alpine Groomer joins the original Amber Ridge Groomer, with artwork for both in the style picker.
+
+## ⚡ Improvements
+
+- A larger snowman preview makes ribbons and scarf stripes easier to see. Its carrot, branches, and scarf now use the same shapes as the snowman you build on the Dock.
+- The top hat has a gently tilted crown and a rounded brim that sits more naturally on the snowman’s head.
+- Winter settings now group Santa, the Yeti, and Christmas trees under **Visitors & Gifts**. Settings search opens the relevant winter tab.
+
+## 🐞 Bug fixes
+
+- Fixed a sliver of snow showing above the top hat’s brim and a blue oval appearing between the snowballs in the settings preview.
+]]></description>
+            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.1.8/Tymor-1.1.8.dmg" length="18099819" type="application/octet-stream" sparkle:edSignature="cCV04+aXca24nQBq7mkYzV2JONsq5Z+culBtcBHAV+PATJ6bHypxQDE2V0crtq/eYtfLlJ3yw73P0w6I9Jm/AA=="/>
+        </item>
+        <item>
             <title>1.1.7</title>
             <pubDate>Sat, 21 Nov 2026 01:32:15 +0600</pubDate>
             <link>https://gleemyhq.github.io/tymor-releases</link>
@@ -53,24 +81,6 @@
 - If you previously chose Cozy Cabin, Snowy Hut, Christmas Village, or Riverside Cabin, Tymor now selects Dynamic Christmas Cottage on upgrade. If you chose Snowy Red Tram, you keep its original evening scene.
 ]]></description>
             <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.1.6/Tymor-1.1.6.dmg" length="18403890" type="application/octet-stream" sparkle:edSignature="h2bjKUu+BORwi/mfTvxzGxA5jm7ZUvvwcrBx8zOBXi8in7wUVm7K29jCf8CaP9tRU8wVXy35eZS7QOkyYDN7Ag=="/>
-        </item>
-        <item>
-            <title>1.1.5</title>
-            <pubDate>Tue, 17 Nov 2026 17:15:32 +0600</pubDate>
-            <link>https://gleemyhq.github.io/tymor-releases</link>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Tymor 1.1.5
-
-## ✨ What's new
-
-- Decorate your desktop with Christmas trees. Add them from the menu bar or Winter settings, then drag them anywhere you like.
-- Yeti can chop down trees rooted in the bottom snow bed or snowy Dock top. Control tree cutting in Yeti settings; visits still follow your automatic or manual preferences.
-- Yeti now works through all reachable trees and eligible snowmen before celebrating, with varied surprise, jump, and smile endings.
-- The snowplow knocks down bottom-area trees and carries them offscreen alongside presents.
-]]></description>
-            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.1.5/Tymor-1.1.5.dmg" length="16469194" type="application/octet-stream" sparkle:edSignature="nJ5AsaUvhj/GXMFEYNNKfcuzZNdanre0DwFzo43vwA09OhoIYo4dLUQng8ReYciLNhyYjBKduIVA6Ap7rE9aDQ=="/>
         </item>
     </channel>
 </rss>
