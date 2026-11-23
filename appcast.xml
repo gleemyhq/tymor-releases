@@ -6,6 +6,25 @@
         <description>Production appcast feed for Tymor.</description>
         <language>en</language>
         <item>
+            <title>1.2.1</title>
+            <pubDate>Mon, 23 Nov 2026 18:56:06 +0600</pubDate>
+            <link>https://gleemyhq.github.io/tymor-releases</link>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Tymor 1.2.1
+
+## ✨ What's new
+
+- Give your snowman a Classic, Sunny, Wink, Sleepy, Joyful, or Surprised face in Winter settings. Choose Mix to shuffle your favorites as you build new snowmen.
+
+## ⚡ Improvements
+
+- Choose which preset colors to mix for top hats and scarves independently. Keep two to alternate between them, or leave one selected to use it every time. Custom colors are still available as a fixed choice.
+]]></description>
+            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.2.1/Tymor-1.2.1.dmg" length="20520696" type="application/octet-stream" sparkle:edSignature="8dq5mgG6o/EzG3sUhP7DcC6hY3i8Jik5z5tnr336f0hArxvdgar+q901f8oNIQ30TzTCzQ1LZEW8hxubmD1aBw=="/>
+        </item>
+        <item>
             <title>1.2.0</title>
             <pubDate>Mon, 23 Nov 2026 17:50:52 +0600</pubDate>
             <link>https://gleemyhq.github.io/tymor-releases</link>
@@ -54,35 +73,6 @@
 - Fixed a sliver of snow showing above the top hat’s brim and a blue oval appearing between the snowballs in the settings preview.
 ]]></description>
             <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.1.8/Tymor-1.1.8.dmg" length="18099819" type="application/octet-stream" sparkle:edSignature="cCV04+aXca24nQBq7mkYzV2JONsq5Z+culBtcBHAV+PATJ6bHypxQDE2V0crtq/eYtfLlJ3yw73P0w6I9Jm/AA=="/>
-        </item>
-        <item>
-            <title>1.1.7</title>
-            <pubDate>Sat, 21 Nov 2026 01:32:15 +0600</pubDate>
-            <link>https://gleemyhq.github.io/tymor-releases</link>
-            <sparkle:version>17</sparkle:version>
-            <sparkle:shortVersionString>1.1.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Tymor 1.1.7
-
-## ✨ What's new
-
-- Hold Option and roll a snowball into another to push it along. Keep rolling to push a whole row.
-
-## ⚡ Improvements
-
-- Santa’s reindeer now gallop slightly out of step with each other, and their hooves settle into the snow on the Dock and along the bottom of the screen.
-- Snow rides along on gentle upward window drags and hops higher with a brisk flick. Lowering a window releases a wider cloud of powder.
-- The Dock and screen-bottom beds now collect 40% of the snow that lands from sweeping, moving, resizing, closing, or minimizing a window, or from a broken snowball. Snowball impacts build a mound and spread excess snow around its base.
-- The snowplow crosses the screen a little faster.
-
-## 🐞 Bug fixes
-
-- Reduced flicker during Santa’s flight, when dragging snowballs, snowmen, or trees, and when snowballs roll or fall quickly.
-- After a short downward drag, the window can catch powder that previously slipped through its top edge.
-- The Yeti now aims glass throws from its throwing spot, so the snowball travels in the direction of the throw. Short throws follow a shallower arc.
-- Closed small visible gaps between rolling snowballs and where a snowman rests on its snow bed.
-]]></description>
-            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.1.7/Tymor-1.1.7.dmg" length="17955831" type="application/octet-stream" sparkle:edSignature="b4JczdoHfCEnr8r2a+0NnaqDrgracf++UcAvq8Yx1FoqWI1H8ccUeheKu5tQxk1o2ElsH4mrDBJn464Bjw5CCg=="/>
         </item>
     </channel>
 </rss>
