@@ -6,6 +6,28 @@
         <description>Production appcast feed for Tymor.</description>
         <language>en</language>
         <item>
+            <title>1.2.0</title>
+            <pubDate>Mon, 23 Nov 2026 17:50:52 +0600</pubDate>
+            <link>https://gleemyhq.github.io/tymor-releases</link>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Tymor 1.2.0
+
+## ✨ What's new
+
+- Choose between the classic decorated Christmas tree and the new Snowy Spruce in Winter settings.
+- Penguin chicks visit in flocks, leaving footprints as they waddle through the snow. They belly-slide past one another and hop on and off the Dock. Click a walking chick and it waves hello.
+- When the snowplow approaches, chicks turn and slide out of its path or take shelter on the Dock. If the plow blocks their way down, they line up on the edge until it passes.
+- Choose how many penguins visit in Winter settings. Turn on **Automatic penguin visits** or select **Bring Penguins Now** to call the flock.
+
+## ⚡ Improvements
+
+- Snow along the bottom of the screen has gentler ripples for a smoother belly slide over the drifts.
+]]></description>
+            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.2.0/Tymor-1.2.0.dmg" length="20498905" type="application/octet-stream" sparkle:edSignature="tduUGLqFnsMlu4S/kpWuT629SQhyt29HkAbKVg7Ff7FlFl6buW/LU3+jyojBy/wMi4cy34Zuz0XdRSjEPMZgCg=="/>
+        </item>
+        <item>
             <title>1.1.8</title>
             <pubDate>Sun, 22 Nov 2026 15:15:07 +0600</pubDate>
             <link>https://gleemyhq.github.io/tymor-releases</link>
@@ -61,26 +83,6 @@
 - Closed small visible gaps between rolling snowballs and where a snowman rests on its snow bed.
 ]]></description>
             <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.1.7/Tymor-1.1.7.dmg" length="17955831" type="application/octet-stream" sparkle:edSignature="b4JczdoHfCEnr8r2a+0NnaqDrgracf++UcAvq8Yx1FoqWI1H8ccUeheKu5tQxk1o2ElsH4mrDBJn464Bjw5CCg=="/>
-        </item>
-        <item>
-            <title>1.1.6</title>
-            <pubDate>Wed, 18 Nov 2026 21:29:28 +0600</pubDate>
-            <link>https://gleemyhq.github.io/tymor-releases</link>
-            <sparkle:version>16</sparkle:version>
-            <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Tymor 1.1.6
-
-## ✨ What's new
-
-- Five winter wallpapers now follow the time of day: Christmas Cottage, The Winter Post, Dress Code: Red, Snowy Red Tram, and The Last Skate. In Settings or during setup, choose Dynamic to follow local time, or Still to keep your favorite morning, day, evening, or night scene.
-- A smaller setup window lets you preview Winter, Rain, or Fireflies directly on your desktop before activating Tymor. The preview pauses when you minimize, hide, or close setup and resumes when you bring it back. Wallpaper choices take effect after activation.
-
-## ⚡ Improvements
-
-- If you previously chose Cozy Cabin, Snowy Hut, Christmas Village, or Riverside Cabin, Tymor now selects Dynamic Christmas Cottage on upgrade. If you chose Snowy Red Tram, you keep its original evening scene.
-]]></description>
-            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.1.6/Tymor-1.1.6.dmg" length="18403890" type="application/octet-stream" sparkle:edSignature="h2bjKUu+BORwi/mfTvxzGxA5jm7ZUvvwcrBx8zOBXi8in7wUVm7K29jCf8CaP9tRU8wVXy35eZS7QOkyYDN7Ag=="/>
         </item>
     </channel>
 </rss>
