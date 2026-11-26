@@ -6,6 +6,33 @@
         <description>Production appcast feed for Tymor.</description>
         <language>en</language>
         <item>
+            <title>1.2.2</title>
+            <pubDate>Thu, 26 Nov 2026 15:44:15 +0600</pubDate>
+            <link>https://gleemyhq.github.io/tymor-releases</link>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Tymor 1.2.2
+
+## ✨ What's new
+
+- Open **Arrange Screen Lights…** and **Arrange Window Lights…** directly from the menu bar’s **Lights** menu.
+- Arrange screen lights directly on your display. Drag hooks along any enabled edge and use the floating panel to fine-tune their positions.
+- If effects or sounds aren’t working, use **Settings → About → Export Diagnostics…** to save a report you can review and share with support.
+
+## ⚡ Improvements
+
+- Select hooks with numbered buttons that highlight the current selection. Switch between screen edges with an inline selector.
+- Lower individual hooks up to 120 points in both arrangement editors.
+- Move the floating screen-light editor more smoothly while Tymor pauses animated effects on the display you’re editing. Effects resume when you close the editor.
+
+## 🐞 Bug fixes
+
+- Fixed a startup issue that could leave weather and lights invisible even when enabled. If the graphics device is temporarily unavailable, Tymor now retries so effects can start without relaunching the app.
+]]></description>
+            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.2.2/Tymor-1.2.2.dmg" length="20611939" type="application/octet-stream" sparkle:edSignature="TvaodMev1r+6gKpizLrOIlZ7U6YLMUN5NA1rMZwS9pXbG9rk3DoNrZp23N+UgU7d5zhglymRIyVa7JKw1lpyAg=="/>
+        </item>
+        <item>
             <title>1.2.1</title>
             <pubDate>Mon, 23 Nov 2026 18:56:06 +0600</pubDate>
             <link>https://gleemyhq.github.io/tymor-releases</link>
@@ -45,34 +72,6 @@
 - Snow along the bottom of the screen has gentler ripples for a smoother belly slide over the drifts.
 ]]></description>
             <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.2.0/Tymor-1.2.0.dmg" length="20498905" type="application/octet-stream" sparkle:edSignature="tduUGLqFnsMlu4S/kpWuT629SQhyt29HkAbKVg7Ff7FlFl6buW/LU3+jyojBy/wMi4cy34Zuz0XdRSjEPMZgCg=="/>
-        </item>
-        <item>
-            <title>1.1.8</title>
-            <pubDate>Sun, 22 Nov 2026 15:15:07 +0600</pubDate>
-            <link>https://gleemyhq.github.io/tymor-releases</link>
-            <sparkle:version>18</sparkle:version>
-            <sparkle:shortVersionString>1.1.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Tymor 1.1.8
-
-## ✨ What's new
-
-- Dress your snowman in a matching crown and ribbon. Choose from five top hat palettes, starting with Midnight & Slate, or use the color wheel to pick both colors yourself.
-- Choose a solid Cardinal scarf or one of four striped designs, including Peppermint and Cocoa & Clementine. You can also pick your own main yarn and stripe colors.
-- Mix hat and scarf colors independently. Click either shuffle button again to try another pairing in the preview. Each snowman on the Dock keeps its own mix.
-- Choose your snowplow in Winter settings. The new Vintage Alpine Groomer joins the original Amber Ridge Groomer, with artwork for both in the style picker.
-
-## ⚡ Improvements
-
-- A larger snowman preview makes ribbons and scarf stripes easier to see. Its carrot, branches, and scarf now use the same shapes as the snowman you build on the Dock.
-- The top hat has a gently tilted crown and a rounded brim that sits more naturally on the snowman’s head.
-- Winter settings now group Santa, the Yeti, and Christmas trees under **Visitors & Gifts**. Settings search opens the relevant winter tab.
-
-## 🐞 Bug fixes
-
-- Fixed a sliver of snow showing above the top hat’s brim and a blue oval appearing between the snowballs in the settings preview.
-]]></description>
-            <enclosure url="https://github.com/gleemyhq/tymor-releases/releases/download/v1.1.8/Tymor-1.1.8.dmg" length="18099819" type="application/octet-stream" sparkle:edSignature="cCV04+aXca24nQBq7mkYzV2JONsq5Z+culBtcBHAV+PATJ6bHypxQDE2V0crtq/eYtfLlJ3yw73P0w6I9Jm/AA=="/>
         </item>
     </channel>
 </rss>
